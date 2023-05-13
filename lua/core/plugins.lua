@@ -12,7 +12,7 @@ require("lazy").setup({
     -- user plugins
     {'tpope/vim-surround'},
     {'kdheepak/lazygit.nvim'},
-
+    {'Pocco81/auto-save.nvim'},
     -- core plugins
     {
         'nvim-telescope/telescope.nvim',
