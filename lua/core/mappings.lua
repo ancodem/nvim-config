@@ -24,7 +24,7 @@ vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>q', ':q<CR>')
 
 -- Tabs
-vim.keymap.set('n', '<s-l', ':BufferLineCycleNext<CR>')
+vim.keymap.set('n', '<s-l>', ':BufferLineCycleNext<CR>')
 vim.keymap.set('n', '<s-h>', ':BufferLineCyclePrev<CR>')
 
 -- Terminal
