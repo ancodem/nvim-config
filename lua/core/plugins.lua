@@ -9,6 +9,11 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+    -- user plugins
+    {'tpope/vim-surround'},
+    {'kdheepak/lazygit.nvim'},
+
+    -- core plugins
     {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.1',
