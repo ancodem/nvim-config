@@ -1,5 +1,8 @@
 vim.g.mapleader = " "
 
+-- Comments
+vim.keymap.set('v', '<leader>/', ':CommentToggle<CR>')
+
 -- NeoTree
 vim.keymap.set('n', '<leader>e', ':Neotree float reveal<CR>')
 vim.keymap.set('n', '<leader>o', ':Neotree float git_status<CR>')
@@ -42,4 +45,3 @@ vim.keymap.set('n', '<leader>pu', ':Mason<CR>')
 
 -- UI
 vim.keymap.set('n', '<leader>ua', ':ASToggle<CR>')
-
