@@ -8,12 +8,28 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({
-    -- user plugins
+-- Put your plugins here
+local userPlugins = {
     {'tpope/vim-surround'},
     {'kdheepak/lazygit.nvim'},
-    {'Pocco81/auto-save.nvim'},
-    -- core plugins
+    {'Pocco81/auto-save.nvim'}
+}
+
+-- Put your theme plugins here
+local userThemes = {
+    { 'catppuccin/nvim' },
+    {'morhetz/gruvbox'},
+    {'sainnhe/gruvbox-material'},
+    {'altercation/vim-colors-solarized'},
+    {'maxmx03/fluoromachine.nvim'},
+    {'maxmx03/solarized.nvim'},
+    {'kabbamine/yowish.vim'},
+    {'gwutz/vim-materialtheme'},
+    {'marciomazza/vim-brogrammer-theme'},
+    {'lissatransborda/dalton-vim'}
+}
+
+local corePlugins = {
     {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.1',
@@ -54,4 +70,11 @@ require("lazy").setup({
     { 'phaazon/hop.nvim'},
     { 'hrsh7th/vim-vsnip' },
     {'hrsh7th/vim-vsnip-integ'}
+
+}
+
+require("lazy").setup({
+    userThemes,
+    userPlugins,
+    corePlugins
 });
