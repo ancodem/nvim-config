@@ -45,5 +45,15 @@ wk.register({
       p = "Toggle pin",
     },
     c = "Close buffer",
+    n = {
+      name = "Obsidian",
+      t = "New daily note",
+      y = "Yesterday's daily note",
+      o = "Open in Obsidian",
+      n = "New note",
+      l = "Link to note",
+      g = "Go to link",
+      t = "Template insert",
+    }
     
 }, {prefix = "<leader>"})
