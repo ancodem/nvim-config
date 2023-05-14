@@ -9,7 +9,6 @@ wk.register({
         w = {"Find Text"}
     },
     e = {"File Manager"},
-    x = {"Close Buffer"},
     w = {"Save"},
     t = {name = "Terminal", f = {"Float terminal"}, h = {"Horizontal terminal"}},
     h = {"No highlight"},
