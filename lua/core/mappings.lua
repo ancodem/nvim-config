@@ -1,5 +1,12 @@
 vim.g.mapleader = " "
 
+-- Buffer
+vim.keymap.set('n', '<leader>bj', ':BufferLinePick<CR>')
+vim.keymap.set('n', '<leader>bc', ':BufferLinePickClose<CR>')
+vim.keymap.set('n', '<leader>bp', ':BufferLineTogglePin<CR>')
+vim.keymap.set('n', '<leader>c', ':bdelete<CR>')
+
+
 -- Comments
 vim.keymap.set('v', '<leader>/', ':CommentToggle<CR>')
 
@@ -21,7 +28,6 @@ vim.keymap.set('n', '\\', ':split<CR>')
 
 -- Other
 vim.keymap.set('n', '<leader>w', ':w<CR>')
-vim.keymap.set('n', '<leader>x', ':BufferLinePickClose<CR>')
 vim.keymap.set('i', 'jj', '<Esc>')
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>q', ':q<CR>')

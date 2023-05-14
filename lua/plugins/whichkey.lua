@@ -37,6 +37,13 @@ wk.register({
     u = {
         name = "UI",
         a = "Toggle autosave",
-    }
+    },
+    b = {
+      name = "Buffers",
+      j = "Pick jump",
+      c = "Pick close",
+      p = "Toggle pin",
+    },
+    c = "Close buffer",
     
 }, {prefix = "<leader>"})
