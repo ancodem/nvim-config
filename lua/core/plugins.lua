@@ -12,12 +12,18 @@ vim.opt.rtp:prepend(lazypath)
 local userPlugins = {
     {'tpope/vim-surround'},
     {'kdheepak/lazygit.nvim'},
-    {'Pocco81/auto-save.nvim'}
+    {'Pocco81/auto-save.nvim'},
+    {'rcarriga/nvim-notify'}, -- notification
+    {'stevearc/dressing.nvim'}, -- ui enhencer
+    {'nvim-tree/nvim-web-devicons'}, -- icons
+    {'onsails/lspkind.nvim'}, -- lsp icons
+    {'max397574/better-escape.nvim'}, -- remove lags from j
+    {'epwalsh/obsidian.nvim'} -- obsidian controls
 }
 
 -- Put your theme plugins here
 local userThemes = {
-    { 'catppuccin/nvim' },
+    {'catppuccin/nvim'},
     {'morhetz/gruvbox'},
     {'sainnhe/gruvbox-material'},
     {'altercation/vim-colors-solarized'},
