@@ -1,5 +1,14 @@
 vim.g.mapleader = " "
 
+-- Obsidian
+vim.keymap.set('n', '<leader>nt', ':ObsidianToday<CR>')
+vim.keymap.set('n', '<leader>ny', ':ObsidianYesterday<CR>')
+vim.keymap.set('n', '<leader>no', ':ObsidianOpen<CR>')
+vim.keymap.set('n', '<leader>nn', ':ObsidianNew<CR>')
+vim.keymap.set('v', '<leader>nl', ':ObsidianLinkNew<CR>')
+vim.keymap.set('n', '<leader>ng', ':ObsidianFollowLink<CR>')
+vim.keymap.set('n', '<leader>nt', ':ObsidianTemplate<CR>')
+
 -- Buffer
 vim.keymap.set('n', '<leader>bj', ':BufferLinePick<CR>')
 vim.keymap.set('n', '<leader>bc', ':BufferLinePickClose<CR>')
