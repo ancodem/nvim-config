@@ -6,7 +6,6 @@ vim.keymap.set('n', '<leader>bc', ':BufferLinePickClose<CR>')
 vim.keymap.set('n', '<leader>bp', ':BufferLineTogglePin<CR>')
 vim.keymap.set('n', '<leader>c', ':bdelete<CR>')
 
-
 -- Comments
 vim.keymap.set('v', '<leader>/', ':CommentToggle<CR>')
 
