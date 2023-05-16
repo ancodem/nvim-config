@@ -39,8 +39,11 @@ vim.keymap.set('n', '<s-h>', ':BufferLineCyclePrev<CR>')
 vim.keymap.set('n', '<leader>tf', ':ToggleTerm direction=float<CR>')
 vim.keymap.set('n', '<leader>th', ':ToggleTerm direction=horizontal<CR>')
 
--- LazyGit
-vim.keymap.set('n', '<leader>gg', ':LazyGit<CR>', {noremap = true, silent = true})
+-- Git
+vim.keymap.set('n', '<leader>gg', ':Gitsigns<CR>')
+vim.keymap.set('n', '<leader>gh', ':Gitsigns reset_hunk<CR>')
+vim.keymap.set('n', '<leader>gs', ':Gitsigns stage_hunk<CR>')
+vim.keymap.set('n', '<leader>gl', ':Gitsigns blame_line<CR>')
 
 -- Plugin controls
 vim.keymap.set('n', '<leader>pp', ':Lazy<CR>')
