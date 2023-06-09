@@ -10,6 +10,7 @@
   "dalton-vim": { "branch": "main", "commit": "c9ae0dcb483e61756d7e8ff235b53f0fcb53a7e5" },
   "dashboard-nvim": { "branch": "master", "commit": "0af0ad181db271ef8d5a332f4cfcec9118340497" },
   "dressing.nvim": { "branch": "master", "commit": "66e4990240f92e31b0d5e4df6deb6bb0160ae832" },
+  "firenvim": { "branch": "master", "commit": "e2d5a0f97d1f41e03c8d2a3c71ee60b1a4a6bb83" },
   "fluoromachine.nvim": { "branch": "main", "commit": "b7a96b31aa6240db58cc31bb2a44fe44a4d46ad9" },
   "gitsigns.nvim": { "branch": "main", "commit": "814158f6c4b1724c039fcefe79b0be72c9131c2d" },
   "glowbeam.nvim": { "branch": "main", "commit": "12144d6062455425028390095d2932d566cbc851" },

@@ -11,6 +11,7 @@ vim.keymap.set('v', '<leader>/', ':CommentToggle<CR>')
 
 -- NeoTree
 vim.keymap.set('n', '<leader>e', ':Neotree float reveal<CR>')
+vim.keymap.set('n', '<leader>у', ':Neotree float reveal<CR>')
 vim.keymap.set('n', '<leader>o', ':Neotree float git_status<CR>')
 
 -- Navigation
@@ -28,6 +29,7 @@ vim.keymap.set('n', '\\', ':split<CR>')
 -- Other
 vim.keymap.set('n', '<leader>w', ':w<CR>')
 vim.keymap.set('i', 'jj', '<Esc>')
+vim.keymap.set('i', 'оо', '<Esc>')
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>q', ':q<CR>')
 
@@ -53,3 +55,8 @@ vim.keymap.set('n', '<leader>pu', ':Mason<CR>')
 
 -- UI
 vim.keymap.set('n', '<leader>ua', ':ASToggle<CR>')
+
+
+-- controls
+-- allow using cirilics
+vim.api.nvim_command('set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯЖ;ABCDEFGHIJKLMNOPQRSTUVWXYZ:,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz')

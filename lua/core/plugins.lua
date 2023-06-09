@@ -18,6 +18,7 @@ local userPlugins = {
     {'nvim-tree/nvim-web-devicons'}, -- icons
     {'onsails/lspkind.nvim'}, -- lsp icons
     {'max397574/better-escape.nvim'}, -- remove lags from j
+    { 'glacambre/firenvim'} -- embed nvim into chrome 
 }
 
 -- Put your theme plugins here
