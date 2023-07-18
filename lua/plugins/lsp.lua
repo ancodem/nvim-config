@@ -3,6 +3,7 @@ capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 -- Sntup language servers.
 local lspconfig = require('lspconfig')
 lspconfig.pyright.setup {}
+lspconfig.svelte.setup {}
 lspconfig.tailwindcss.setup {}
 lspconfig.tsserver.setup {}
 lspconfig.prismals.setup {}
