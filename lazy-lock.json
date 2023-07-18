@@ -42,6 +42,7 @@
   "solarized.nvim": { "branch": "main", "commit": "7357e0e366c8360f90bb43a3ead9d7744e65de04" },
   "telescope.nvim": { "branch": "master", "commit": "c1a2af0af69e80e14e6b226d3957a064cd080805" },
   "toggleterm.nvim": { "branch": "main", "commit": "026dff5e2b504941cf172691561a67ea362596aa" },
+  "transparent.nvim": { "branch": "main", "commit": "f6a0f8387fbea5fbc2b78137444a9de4fdd02459" },
   "vim-brogrammer-theme": { "branch": "main", "commit": "836a97d218d861602f4bf9536eb604d09b9c35e1" },
   "vim-colors-solarized": { "branch": "master", "commit": "528a59f26d12278698bb946f8fb82a63711eec21" },
   "vim-materialtheme": { "branch": "master", "commit": "01ba951858061d1f9e651ceb8b07eb8689ab67ab" },
