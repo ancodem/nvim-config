@@ -19,6 +19,7 @@ local userPlugins = {
     {'onsails/lspkind.nvim'}, -- lsp icons
     {'max397574/better-escape.nvim'}, -- remove lags from j
     {"xiyaowong/transparent.nvim"}, -- make nvim bg transparent
+    {'christoomey/vim-tmux-navigator'} -- navigtion
 }
 
 -- Put your theme plugins here
